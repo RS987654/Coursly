@@ -1,0 +1,29 @@
+{
+  "name": "coursly",
+  "version": "1.0.0",
+  "description": "A course app. PDF to course.",
+  "keywords": [
+    "Study",
+    "Learn",
+    "Course"
+  ],
+  "homepage": "https://github.com/RS987654/Coursly#readme",
+  "bugs": {
+    "url": "https://github.com/RS987654/Coursly/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RS987654/Coursly.git"
+  },
+  "license": "ISC",
+  "author": "Roger Sabau",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1"
+  }
+}
