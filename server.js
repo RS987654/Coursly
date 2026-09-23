@@ -1,13 +1,16 @@
 import express from 'express';
 import ejs from 'ejs';
-
-app.set('view engine', 'ejs');
+import mongoose from 'mongoose';
 
 const app = express();
+app.set('view engine', 'ejs');
+app.use(express.static('public'));
+app.use('/images', express.static('images'));
+
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
+    res.render('homepage');
 });
 
 app.listen(PORT, () => {
